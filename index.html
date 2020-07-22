@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="header">
+     <h3>Tic Tac Toe</h3>   
+     <button onclick="location.reload();"> Reset</button> 
+    </div>
+    
+    <div class="popup">
+        <span class="popuptext" id="myPopup">Popup text...</span>
+    </div>
+
+    <div class='mainbody'>
+        <div class='container' id='board'>
+            <div class='row'>
+                <div class='square' id="00"></div>
+                <div class='square' id="01"></div>
+                <div class='square' id="02"></div>
+            </div>
+            <div class='row'>
+                <div class='square' id="10"></div>
+                <div class='square' id="11"></div>
+                <div class='square' id="12"></div>
+            </div>
+            <div class='row'>
+                <div class='square' id="20"></div>
+                <div class='square' id="21"></div>
+                <div class='square' id="22"></div>
+            </div>
+        </div>
+        <div class='right'>
+            
+            <div class='selector' id='selector'>
+                <img src="cat.png" width="140" height="120" id='cat'></img>
+                <img src="dog.png" width="140" height="140" id='dog'></img>
+            </div>
+            <h4>Select the first player</h4>
+           <!-- <button> Reset</button>  -->
+        </div>
+
+
+    </div>
+    
+    <script src="helper.js"></script>
+    <script src="ttt.js"></script>
+
+    
+</body>
+</html>

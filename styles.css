@@ -1,0 +1,136 @@
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.selector{
+    padding: 30px;
+}
+
+.selector img {
+    margin: 10px;
+}
+
+.header h3{
+    margin-left: 10%;
+    padding: 10px;    
+    padding-left: 190px;
+    min-width: 100px;
+}
+
+.mainbody {
+    display: flex;
+}
+
+.container {
+    margin-left: 10%;
+    width: 505px;
+}
+
+.row {
+    min-width: 500px;
+    display: flex;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    border: 1px solid black;
+    background-color: rgb(172, 232, 255);
+    margin: 1px;
+    box-shadow: inset 0 0 1px 10px #423c3c3f;
+    border-radius: 6px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 20%;
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 6px;
+    background-color: rgb(224, 129, 228);
+    /* color: white; */
+    border: 1px solid black;
+    box-shadow: inset 0 0 1px 10px #423c3c3f;
+    /* background-image: linear-gradient(to right, rgb(65, 219, 240),  rgb(112, 253, 159),  rgb(253, 151, 168), rgb(255, 170, 255));     */
+}
+
+h3, button {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+h4 {
+    /* padding-left: 40px; */
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+.popup {
+    position: relative;
+    top: 380px;
+    left: 45%;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(224, 129, 228);
+    background-image: radial-gradient(circle, rgba(250,148,255,1) 0%, rgba(172, 232, 255, 1) 100%);
+    box-shadow: 0px 2px 132px 37px rgba(250,148,255,1);
+    /* color: #fff; */
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+
+  
+  /* Popup arrow */
+  /* .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+   */
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+
+  .shadow {
+    border: 8px solid #ff9ef0;
+  }
